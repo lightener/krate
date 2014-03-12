@@ -13,7 +13,7 @@ describe Krate do
 	end
 
 	it "should rename the mp3 files" do
-		songs = Dir.glob('*.mp3')
-		songs.should include("Knight Riderz - Synthetic Seduction.mp3") 
+		songs = Dir.glob('*.mp3') #checks all mp3 files in directory
+		songs.should include("Knight Riderz - Synthetic Seduction.mp3") #this is a test mp3
     end
 end
