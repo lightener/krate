@@ -1,4 +1,1 @@
-krate
-=====
-
-repo for krate gem
+This gem is a simple project made for a class that renames MP3 files according to their ID3v1 tags. Future versions will include ID3v2.
