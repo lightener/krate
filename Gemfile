@@ -1,2 +1,3 @@
 source "http://rubygems.org"
-gem 'rspec','rake'
+gem 'rspec'
+gem 'rake'
