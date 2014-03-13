@@ -1,6 +1,6 @@
 class Krate
 require './ID3Tag.rb'
-require "FileUtils" 
+## require "FileUtils" - commenting out for Travis
   
 
 
@@ -21,7 +21,7 @@ require "FileUtils"
         File.rename(song, "#{title} - #{artist}.mp3")
         success_count = success_count + 1
       else
-        FileUtils.mv(song, "Not_Renamed")
+        ## FileUtils.mv(song, "Not_Renamed")
         fail_count = fail_count + 1
       end 
       total_count = (fail_count + success_count)
